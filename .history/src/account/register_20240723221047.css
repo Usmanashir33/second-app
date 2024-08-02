@@ -1,0 +1,40 @@
+.r-form{
+    margin: 0px auto;
+    border: 1px solid ;
+    border-radius: 20px;
+    padding: 15px;
+    max-width: 300px;
+}
+form section{
+    margin-top: 12px;
+}
+form p{
+    font-size: 14px;
+    color: rgb(81, 115, 115);
+    
+}
+form section input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(253, 253, 248, 0.24);
+    border: 1.5px solid rgb(195, 229, 241);
+    font-size: 18px;
+    padding: 0px 2px;
+}
+form section input:focus-visible{
+    padding: 2px;
+    outline: 1px dashed rgb(7, 169, 209);
+}
+button[type='submit']{
+    display:block;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px  ;
+    color: rgb(44, 63, 80);
+    background-color: rgb(160, 251, 251);
+    margin: 0px auto;
+    margin-top: 15px ;
+}
